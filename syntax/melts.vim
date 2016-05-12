@@ -7,5 +7,7 @@ endif
 
 syntax match Statement /^ALPHAMELTS_\w*/
 syntax match Statement /^ADIABAT_\w*/
+
+syntax match Structure /^\w.*\(:\s\)\@=/
 syntax match Comment /^!.*$/
 
